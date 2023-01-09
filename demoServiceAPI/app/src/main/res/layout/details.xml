@@ -1,0 +1,110 @@
+<androidx.cardview.widget.CardView
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:layout_margin="16dp"
+    android:backgroundTint="#efefef"
+    app:cardCornerRadius="16dp"
+    app:cardElevation="12dp">
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_margin="16dp"
+        android:orientation="vertical">
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_vertical"
+            android:orientation="horizontal">
+
+            <TextView
+                style="bold"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="ID: "
+                android:textColor="@color/black"
+                android:textSize="14dp"/>
+
+            <TextView
+                android:id="@+id/textId"
+                style="bold"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textColor="@color/black"
+                android:textSize="16dp"/>
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_vertical"
+            android:orientation="horizontal">
+
+            <TextView
+                style="bold"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="User ID: "
+                android:textColor="@color/black"
+                android:textSize="16dp"/>
+
+            <TextView
+                android:id="@+id/textUserId"
+                style="bold"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textColor="@color/black"
+                android:textSize="16dp"/>
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_vertical"
+            android:orientation="horizontal">
+
+            <TextView
+                style="bold"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Title: "
+                android:textColor="@color/black"
+                android:textSize="16dp"/>
+
+            <TextView
+                android:id="@+id/texttitle"
+                style="bold"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textColor="@color/black"
+                android:textSize="16dp"/>
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_vertical"
+            android:orientation="horizontal">
+
+            <TextView
+                style="bold"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Body: "
+                android:textColor="@color/black"
+                android:textSize="16dp"/>
+
+            <TextView
+                android:id="@+id/textbody"
+                style="bold"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textColor="@color/black"
+                android:textSize="16dp"/>
+        </LinearLayout>
+    </LinearLayout>
+</androidx.cardview.widget.CardView>

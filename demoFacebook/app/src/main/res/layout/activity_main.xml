@@ -1,0 +1,101 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#4C6BA4">
+
+    <LinearLayout
+        android:layout_marginTop="5dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_above="@id/li1"
+        android:gravity="center">
+
+        <ImageView
+            android:layout_width="50dp"
+            android:layout_height="50dp"
+            android:src="@drawable/fb_logo" />
+    </LinearLayout>
+    <LinearLayout
+        android:id="@+id/li1"
+        android:gravity="center"
+        android:layout_above="@id/li"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="5dp">
+
+        <ImageView
+            android:layout_width="300dp"
+            android:layout_height="100dp"
+            android:src="@drawable/fb_chu_white" />
+    </LinearLayout>
+    <LinearLayout
+        android:id="@+id/li"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_centerInParent="true"
+        android:layout_marginLeft="25dp"
+        android:layout_marginRight="25dp"
+        android:orientation="vertical">
+
+        <EditText
+            android:paddingLeft="10dp"
+            android:id="@+id/activity_main_usernameEditText"
+            android:layout_width="match_parent"
+            android:layout_height="50dp"
+            android:layout_marginBottom="15dp"
+            android:background="@color/white"
+            android:hint="@string/email_or_phone"
+            android:textColor="@color/black" />
+
+        <EditText
+            android:paddingLeft="10dp"
+            android:inputType="textPassword"
+            android:id="@+id/activity_main_passwordEditText"
+            android:layout_width="match_parent"
+            android:layout_height="50dp"
+            android:layout_marginBottom="15dp"
+            android:background="@color/white"
+            android:hint="@string/password"
+            android:textColor="@color/black" />
+
+        <CheckBox
+            android:layout_width="match_parent"
+            android:layout_height="50dp"
+            android:layout_marginBottom="15dp"
+            android:buttonTint="#DFD5D5"
+            android:text="Remember me"
+            android:textColor="@color/white"
+            android:textSize="20sp" />
+
+        <Button
+            android:id="@+id/activity_main_loginButton"
+            android:layout_width="match_parent"
+            android:layout_height="50dp"
+            android:layout_marginBottom="15dp"
+            android:background="@color/black"
+            android:text="@string/log_in"
+            android:textAllCaps="false"
+            android:textColor="@color/white"
+            android:textSize="20sp" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:text="@string/forgot_password"
+            android:textColor="@color/white" />
+    </LinearLayout>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_centerInParent="true"
+        android:layout_marginBottom="20dp"
+        android:text="@string/sign_up"
+        android:textColor="#fff" />
+</RelativeLayout>
+

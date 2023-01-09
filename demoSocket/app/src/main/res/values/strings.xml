@@ -1,0 +1,4 @@
+<resources>
+    <string name="app_name">demoSocket</string>
+    <string name="error_field_required">This is required</string>
+</resources>
